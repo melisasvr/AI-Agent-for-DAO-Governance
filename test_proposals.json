@@ -1,0 +1,52 @@
+[
+  {
+    "id": 0,
+    "title": "Treasury Diversification Strategy",
+    "description": "\n## Proposal: Diversify DAO Treasury into Stablecoins\n\n### Summary\nAllocate 30% of treasury (approximately 50 ETH) into USDC and DAI stablecoins to reduce volatility exposure.\n\n### Rationale\n- Current 100% ETH exposure creates high volatility risk\n- Stablecoins provide liquidity for operational expenses\n- Industry best practice for DAO treasury management\n\n### Budget\nTotal cost: 50 ETH + gas fees\n\n### Timeline\n6 weeks from approval\n                ",
+    "proposer": "0xf3dD9E569D8Ba6726FE3b7f54A1CFB19998bDc88",
+    "votesFor": 0,
+    "votesAgainst": 0,
+    "votesAbstain": 0,
+    "executed": false
+  },
+  {
+    "id": 1,
+    "title": "Fund Community Education Program",
+    "description": "\n## Proposal: Launch Web3 Education Initiative\n\n### Summary\nEstablish a community education program with 10 ETH funding for workshops, tutorials, and documentation.\n\n### Goals\n- Create comprehensive developer documentation\n- Host monthly community workshops\n- Produce video tutorial series\n- Build example projects and templates\n\n### Budget\n- Documentation: 3 ETH\n- Video production: 4 ETH\n- Workshops: 2 ETH\n- Contingency: 1 ETH\n\n### Timeline\n3 months with monthly progress reports\n                ",
+    "proposer": "0xf3dD9E569D8Ba6726FE3b7f54A1CFB19998bDc88",
+    "votesFor": 0,
+    "votesAgainst": 0,
+    "votesAbstain": 0,
+    "executed": false
+  },
+  {
+    "id": 2,
+    "title": "Implement Quadratic Voting",
+    "description": "\n## Proposal: Upgrade to Quadratic Voting Mechanism\n\n### Summary\nImplement quadratic voting to improve democratic decision-making and reduce whale influence.\n\n### Technical Details\n- Use proven OpenZeppelin contracts\n- Security audit by ConsenSys Diligence\n- 2-week testing period on testnet\n- Gradual rollout with fallback mechanism\n\n### Budget\n- Development: 15 ETH\n- Security audit: 20 ETH\n- Testing: 5 ETH\nTotal: 40 ETH\n\n### Timeline\n- Development: 6 weeks\n- Audit: 4 weeks\n- Testing: 2 weeks\nTotal: 13 weeks\n                ",
+    "proposer": "0xf3dD9E569D8Ba6726FE3b7f54A1CFB19998bDc88",
+    "votesFor": 0,
+    "votesAgainst": 0,
+    "votesAbstain": 0,
+    "executed": false
+  },
+  {
+    "id": 3,
+    "title": "RISKY: Remove All Governance Delays",
+    "description": "\n## Proposal: Eliminate All Security Delays\n\nRemove all security delays for instant execution.\nNo audit, no testing, deploy immediately.\n\nThis will allow the DAO to react instantly to any situation.\nVote YES to move fast and break things.\n                ",
+    "proposer": "0xf3dD9E569D8Ba6726FE3b7f54A1CFB19998bDc88",
+    "votesFor": 0,
+    "votesAgainst": 0,
+    "votesAbstain": 0,
+    "executed": false
+  },
+  {
+    "id": 4,
+    "title": "Monthly Contributor Grants Program",
+    "description": "\n## Proposal: Establish Recurring Grant Program\n\n### Summary\nCreate a sustainable grants program allocating 5 ETH monthly to community contributors.\n\n### Structure\n- Open applications every month\n- Review committee of 5 members\n- Grant sizes: 0.5-2 ETH per project\n- Focus areas: development, design, community growth\n\n### Budget\n60 ETH annual (5 ETH x 12 months)\n\n### Timeline\nStart next month, ongoing program\n                ",
+    "proposer": "0xf3dD9E569D8Ba6726FE3b7f54A1CFB19998bDc88",
+    "votesFor": 0,
+    "votesAgainst": 0,
+    "votesAbstain": 0,
+    "executed": false
+  }
+]

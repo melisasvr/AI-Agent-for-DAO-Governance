@@ -1,0 +1,207 @@
+[
+  {
+    "type": "bar",
+    "data": {
+      "labels": [
+        "Proposal #0",
+        "Proposal #1",
+        "Proposal #2",
+        "Proposal #3",
+        "Proposal #4"
+      ],
+      "datasets": [
+        {
+          "label": "Treasury Impact",
+          "data": [
+            0.3,
+            0.8,
+            0.6,
+            0.8,
+            0.3
+          ],
+          "backgroundColor": "rgba(75, 192, 192, 0.6)",
+          "borderColor": "rgba(75, 192, 192, 1)",
+          "borderWidth": 1
+        },
+        {
+          "label": "Community Alignment",
+          "data": [
+            0.5,
+            0.66,
+            0.5,
+            0.5,
+            0.74
+          ],
+          "backgroundColor": "rgba(54, 162, 235, 0.6)",
+          "borderColor": "rgba(54, 162, 235, 1)",
+          "borderWidth": 1
+        },
+        {
+          "label": "Technical Feasibility",
+          "data": [
+            0.7000000000000001,
+            0.8,
+            0.8,
+            0.5,
+            0.8
+          ],
+          "backgroundColor": "rgba(255, 206, 86, 0.6)",
+          "borderColor": "rgba(255, 206, 86, 1)",
+          "borderWidth": 1
+        },
+        {
+          "label": "Risk Assessment",
+          "data": [
+            0.6,
+            0.6,
+            0.7999999999999999,
+            0.0,
+            0.6
+          ],
+          "backgroundColor": "rgba(255, 99, 132, 0.6)",
+          "borderColor": "rgba(255, 99, 132, 1)",
+          "borderWidth": 1
+        }
+      ]
+    },
+    "options": {
+      "scales": {
+        "y": {
+          "beginAtZero": true,
+          "max": 1,
+          "title": {
+            "display": true,
+            "text": "Score (0-1)"
+          }
+        },
+        "x": {
+          "title": {
+            "display": true,
+            "text": "Proposals"
+          }
+        }
+      },
+      "plugins": {
+        "title": {
+          "display": true,
+          "text": "Proposal Analysis Scores by Category"
+        },
+        "legend": {
+          "position": "top"
+        }
+      }
+    }
+  },
+  {
+    "type": "bar",
+    "data": {
+      "labels": [
+        "Proposal #0",
+        "Proposal #1",
+        "Proposal #2",
+        "Proposal #3",
+        "Proposal #4"
+      ],
+      "datasets": [
+        {
+          "label": "Overall Score",
+          "data": [
+            0.485,
+            0.728,
+            0.64,
+            0.5299999999999999,
+            0.5770000000000001
+          ],
+          "backgroundColor": "rgba(153, 102, 255, 0.6)",
+          "borderColor": "rgba(153, 102, 255, 1)",
+          "borderWidth": 1
+        }
+      ]
+    },
+    "options": {
+      "scales": {
+        "y": {
+          "beginAtZero": true,
+          "max": 1,
+          "title": {
+            "display": true,
+            "text": "Overall Score (0-1)"
+          }
+        },
+        "x": {
+          "title": {
+            "display": true,
+            "text": "Proposals"
+          }
+        }
+      },
+      "plugins": {
+        "title": {
+          "display": true,
+          "text": "Overall Proposal Scores with Voting Threshold"
+        },
+        "annotation": {
+          "annotations": {
+            "threshold": {
+              "type": "line",
+              "yMin": 0.65,
+              "yMax": 0.65,
+              "borderColor": "rgba(255, 99, 132, 1)",
+              "borderWidth": 2,
+              "borderDash": [
+                5,
+                5
+              ],
+              "label": {
+                "content": "Min Score to Support (0.65)",
+                "enabled": true,
+                "position": "end"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "pie",
+    "data": {
+      "labels": [
+        "FOR",
+        "AGAINST",
+        "ABSTAIN"
+      ],
+      "datasets": [
+        {
+          "data": [
+            1,
+            0,
+            4
+          ],
+          "backgroundColor": [
+            "rgba(75, 192, 192, 0.6)",
+            "rgba(255, 99, 132, 0.6)",
+            "rgba(255, 206, 86, 0.6)"
+          ],
+          "borderColor": [
+            "rgba(75, 192, 192, 1)",
+            "rgba(255, 99, 132, 1)",
+            "rgba(255, 206, 86, 1)"
+          ],
+          "borderWidth": 1
+        }
+      ]
+    },
+    "options": {
+      "plugins": {
+        "title": {
+          "display": true,
+          "text": "Voting Summary Distribution"
+        },
+        "legend": {
+          "position": "right"
+        }
+      }
+    }
+  }
+]

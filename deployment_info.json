@@ -1,0 +1,10 @@
+{
+  "network": "ganache-local",
+  "governance_address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "ai_wallet_address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+  "metrics_registry_address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+  "ai_agent_address": "0xc0A606038c2E7c86a6acaDf9D9Dd0F55480E3149",
+  "deployer_address": "0xf3dD9E569D8Ba6726FE3b7f54A1CFB19998bDc88",
+  "ai_agent_private_key": "0x55d655def66eeca0ab86237c4407f3a92033b6cc32d9aa4f8af9f9f9c30fb87a",
+  "note": "MOCK DEPLOYMENT - Contracts not actually deployed"
+}
